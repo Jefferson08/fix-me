@@ -7,7 +7,7 @@ Projeto desenvolvido no 4º semestre do curso de Ciência da Computação para a
 O acesso ao sistema é separado entre usuários comuns e administradores, feito o login, é verificado qual é o acesso do usuário no banco e exibida a tela correspondente. Em todas as telas é exibido na parte superior, o nome e ID do usuário logado.
 
 <figure>
-	<img src="prints/01.PNG">
+	<img src="prints/01.png">
 	<figcaption>Figura 1 - Tela de Login</figcaption>
 </figure>
 
@@ -25,7 +25,7 @@ A interface de usuário tem 4 telas:
 Nesta tela é feito o cadastro de novos chamados. O usuário informa seus dados (Nome e email) e os detalhes do chamado (Categoria, sub-categoria, setor e descrição).
 
 <figure>
-	<img src="prints/02.PNG">
+	<img src="prints/02.png">
 	<figcaption>Figura 2 - Tela de Usuário - Novo Chamado</figcaption>
 </figure>
 
@@ -42,7 +42,7 @@ Na guia chamados é exibida uma tabela com os dados: ID, assunto, data, hora, st
 Logo abaixo da tabela, um campo exibe a descrição do chamado selecionado, e ao lado um botão para encerrar o chamado
 
 <figure>
-	<img src="prints/03.PNG">
+	<img src="prints/03.png">
 	<figcaption>Figura 3 - Tela de Usuário - Chamados</figcaption>
 </figure>
 
@@ -51,7 +51,7 @@ Logo abaixo da tabela, um campo exibe a descrição do chamado selecionado, e ao
 Na guia avisos é exibida uma tabela com ID, assunto, data e hora dos avisos cadastrados pelos administradores. Ao clicar em um aviso, é mostrada sua descrição no campo abaixo da tabela.
 
 <figure>
-	<img src="prints/04.PNG">
+	<img src="prints/04.png">
 	<figcaption>Figura 2 - Tela de Usuário - Avisos</figcaption>
 </figure>
 
@@ -79,7 +79,7 @@ Ao selecionar um chamado, exibe no campo abaixo sua descrição.
 Ao lado do campo com a descrição temos os botões "Alterar Chamado" e "Concluir Chamado", que direcionam para suas respectivas telas.
 
 <figure>
-	<img src="prints/05.PNG">
+	<img src="prints/05.png">
 	<figcaption>Figura 1 - Tela de Login</figcaption>
 </figure>
 
@@ -92,7 +92,7 @@ Urgência e impacto são usados para definir a criticidade e o prazo de resoluç
 Ao lado, são exibidas duas tabelas mostrando a relação entre essas definições.
 
 <figure>
-	<img src="prints/06.PNG">
+	<img src="prints/06.png">
 	<figcaption>Figura 1 - Tela de Login</figcaption>
 </figure>
 
@@ -101,7 +101,7 @@ Ao lado, são exibidas duas tabelas mostrando a relação entre essas definiçõ
 Nesta guia, o administrador conclui o chamado, informando por quem ele foi resolvido e qual foi a solução.
 
 <figure>
-	<img src="prints/07.PNG">
+	<img src="prints/07.png">
 	<figcaption>Figura 1 - Tela de Login</figcaption>
 </figure>
 
@@ -110,7 +110,7 @@ Nesta guia, o administrador conclui o chamado, informando por quem ele foi resol
 Nesta guia o administrador faz a inserção dos avisos que são mostrados na interface de usuário, informando o assunto e a descrição do aviso.
 
 <figure>
-	<img src="prints/08.PNG">
+	<img src="prints/08.png">
 	<figcaption>Figura 1 - Tela de Login</figcaption>
 </figure>
 
@@ -119,7 +119,7 @@ Nesta guia o administrador faz a inserção dos avisos que são mostrados na int
 Nesta guia o administrador faz o cadastro de novos usuários, informando os dados: Nome, email, usuario, senha de acesso e setor.
 
 <figure>
-	<img src="prints/09.PNG">
+	<img src="prints/09.png">
 	<figcaption>Figura 1 - Tela de Login</figcaption>
 </figure>
 
