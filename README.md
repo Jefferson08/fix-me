@@ -4,7 +4,11 @@ Projeto desenvolvido no 4º semestre do curso de Ciência da Computação para a
 
 # Funcionamento:
 
-O acesso ao sistema é separado entre usuários comuns e administradores, feito o login, é verificado qual é o acesso do usuário no banco e exibida a tela correspondente. Em todas as telas é exibido na parte superior, o nome e ID do usuário logado.
+O acesso ao sistema é separado entre usuários comuns e administradores. 
+
+Feito o login, é verificado qual é o acesso do usuário no banco e exibida a tela correspondente. 
+
+Em todas as telas é exibido na parte superior, o nome e ID do usuário logado.
 
 <figure>
 	<img src="prints/01.png">
@@ -20,42 +24,46 @@ A interface de usuário tem 4 telas:
 * Avisos
 * Sair
 
-### Novo chamado
+### -Novo chamado:
 
-Nesta tela é feito o cadastro de novos chamados. O usuário informa seus dados (Nome e email) e os detalhes do chamado (Categoria, sub-categoria, setor e descrição).
+Nesta tela é feito o cadastro de novos chamados.
+
+O usuário informa seus dados (Nome e email) e os detalhes do chamado (Categoria, sub-categoria, setor e descrição).
 
 <figure>
 	<img src="prints/02.png">
 	<figcaption>Figura 2 - Tela de Usuário - Novo Chamado</figcaption>
 </figure>
 
-### Chamados
+### -Chamados:
 
 Na guia chamados é exibida uma tabela com os dados: ID, assunto, data, hora, status e prazo de todos os chamados cadastrados no sistema.
 
 É possível filtrar a exibição dos chamados por: 
 
-1 - Todos os Chamados: Filtro padrão ao carregar a tela, que exibe todos os chamados cadastrados; <br>
-2 - Seus Chamados: Exibe somente os chamados cadastrados pelo usuário logado; <br>
-3 - Chamados concluídos: Exibe somente os chamados concluídos; <br>
+1 - **Todos os Chamados:** Filtro padrão ao carregar a tela, que exibe todos os chamados cadastrados; <br>
+2 - **Seus Chamados:** Exibe somente os chamados cadastrados pelo usuário logado; <br>
+3 - **Chamados concluídos:** Exibe somente os chamados concluídos; <br>
 
-Logo abaixo da tabela, um campo exibe a descrição do chamado selecionado, e ao lado um botão para encerrar o chamado
+Logo abaixo da tabela, um campo exibe a descrição do chamado selecionado e, ao lado, um botão para encerrar o chamado.
 
 <figure>
 	<img src="prints/03.png">
 	<figcaption>Figura 3 - Tela de Usuário - Chamados</figcaption>
 </figure>
 
-### Avisos
+### -Avisos:
 
-Na guia avisos é exibida uma tabela com ID, assunto, data e hora dos avisos cadastrados pelos administradores. Ao clicar em um aviso, é mostrada sua descrição no campo abaixo da tabela.
+Na guia avisos é exibida uma tabela com ID, assunto, data e hora dos avisos cadastrados pelos administradores.
+
+Ao clicar em um aviso, é mostrada sua descrição no campo abaixo da tabela.
 
 <figure>
 	<img src="prints/04.png">
 	<figcaption>Figura 2 - Tela de Usuário - Avisos</figcaption>
 </figure>
 
-### Sair
+### -Sair:
 
 Exibe uma caixa de diálogo perguntando se o usuário deseja realmente sair, caso positivo, encerra o sistema, caso negativo continua na guia atual.
 
@@ -70,7 +78,7 @@ A interface de administrador tem 6 telas:
 * Cadastrar Usuários
 * Sair
 
-### Gerenciar chamados
+### -Gerenciar chamados:
 
 Na guia gerenciar chamados é exibida uma tabela com os dados: ID, categoria, data, urgência, impacto, prioridade e status de todos os chamados cadastrados no sistema.
 
@@ -80,10 +88,10 @@ Ao lado do campo com a descrição temos os botões "Alterar Chamado" e "Conclui
 
 <figure>
 	<img src="prints/05.png">
-	<figcaption>Figura 1 - Tela de Login</figcaption>
+	<figcaption>Figura 5 - Tela de Administrador - Gerenciar Chamados</figcaption>
 </figure>
 
-### Alterar Chamado
+### -Alterar Chamado:
 
 Nesta guia o administrador seleciona a urgência, o impacto e o status do chamado.
 
@@ -96,7 +104,7 @@ Ao lado, são exibidas duas tabelas mostrando a relação entre essas definiçõ
 	<figcaption>Figura 1 - Tela de Login</figcaption>
 </figure>
 
-### Concluir Chamado
+### -Concluir Chamado:
 
 Nesta guia, o administrador conclui o chamado, informando por quem ele foi resolvido e qual foi a solução.
 
@@ -105,7 +113,7 @@ Nesta guia, o administrador conclui o chamado, informando por quem ele foi resol
 	<figcaption>Figura 1 - Tela de Login</figcaption>
 </figure>
 
-### Novo Aviso
+### -Novo Aviso:
 
 Nesta guia o administrador faz a inserção dos avisos que são mostrados na interface de usuário, informando o assunto e a descrição do aviso.
 
@@ -114,7 +122,7 @@ Nesta guia o administrador faz a inserção dos avisos que são mostrados na int
 	<figcaption>Figura 1 - Tela de Login</figcaption>
 </figure>
 
-### Cadastrar Usuários
+### -Cadastrar Usuários:
 
 Nesta guia o administrador faz o cadastro de novos usuários, informando os dados: Nome, email, usuario, senha de acesso e setor.
 
@@ -123,7 +131,7 @@ Nesta guia o administrador faz o cadastro de novos usuários, informando os dado
 	<figcaption>Figura 1 - Tela de Login</figcaption>
 </figure>
 
-### Sair
+### -Sair:
 
 Exibe uma caixa de diálogo perguntando se o usuário deseja realmente sair, caso positivo, encerra o sistema, caso negativo continua na guia atual.
 
